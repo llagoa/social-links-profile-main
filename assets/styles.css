@@ -52,6 +52,11 @@ main {
     border-radius: 8px;
 }
 
+.social-buttons button:focus {
+    outline: 2px solid #ff9900;
+    outline-offset: 4px;
+}
+
 img {
     border-radius: 200px;
 }

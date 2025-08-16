@@ -8,6 +8,12 @@ body {
     color: white;
     font-family: 'Nunito', sans-serif;
 }
+html,
+body {
+    
+    margin: 0;
+    height: 100%;
+}
 
 main {
     background-color: #1f1f1f;
@@ -40,11 +46,11 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    gap: 6px;
+    gap: 0.8rem;
 }
 
 .social-buttons button {
-    background-color: #333333;
+    background-color: #5e5c5c;
     color: white;
     width: 36ch;
     border: none;
